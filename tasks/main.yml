@@ -1,0 +1,7 @@
+---
+# tasks file for kabirg-test-playbook
+- name: Create an ec2 launch template
+  community.aws.ec2_launch_template:
+    name: "kabirg-template"
+    image_id: "ami-0c74fff0c5011e8cd"
+    instance_type: t2.micro
