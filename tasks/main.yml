@@ -5,3 +5,5 @@
     name: "kabirg-template"
     image_id: "ami-0c74fff0c5011e8cd"
     instance_type: t2.micro
+    region: us-west-2
+    state: present
